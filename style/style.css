@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.back_image{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right_side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 70px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+.menu ul li a:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user button {
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.user button:hover{
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+.main {
+    padding: 20px;
+}
+
+.landing_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.landing_section .text_content {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.landing_section .text_content h1 {
+    font-size: 50px;
+    color: #637279;
+    font-weight: 600;
+}
+
+.landing_section .text_content h1 span {
+    color: #7a3d8a;
+}
+
+.landing_section .text_content p {
+    color: #9b93a3;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.landing_section .visual_content {
+    width: 50%;
+    position: relative;
+}
+
+.background_image {
+    width: 100%;
+}
+
+.illustration_man {
+    position: absolute;
+    height: 70%;
+    left: 25%;
+    top: 0;
+}
+
+.clouds {
+    position: absolute;
+    width: 70%;
+    left: 5%;
+    top: 50%;
+}
+
+.waves {
+    position: absolute;
+    top: 85%;
+    width: 120%;
+    left: -650px;
+}
+/* end of the first section */
+
+
+.features_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    position: relative; 
+    height: 1200px;
+}
+
+.feature_item {
+    text-align: center;
+    position: absolute;
+    width: 400px;
+}
+
+.feature_item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.feature_item h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature_item p {
+    font-size: 16px;
+    color: #666;
+}
+
+#feature_item_1 {
+    top: 90px;
+    left: 70px;
+}
+
+#feature_item_3 {
+    top: 300px;
+    left: 35%;
+}
+
+#feature_item_2{
+    top: 600px;
+    left: 60%;
+
+}
+
+.features_section .thebackground{
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    left: 300px;
+    
+}
+
+.features_section .outside_div{
+    position: absolute;
+    top: 700px;
+    text-align: center;
+}
+
+.features_section .outside_div .inside_div{
+    position: relative;
+}
+
+.features_section .outside_div .inside_div p{
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.features_section .outside_div .inside_div h2{
+    position: absolute;
+    top: 190px;
+    left: 30%;
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 2px;
+
+}
+/* end of the second section */
+
+
+
+.element_photos .elments{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* end of the third section */
+
+footer{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+footer .last_bg_image{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+footer .right_footer{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 50px;
+}
+
+footer .left_footer{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+footer .secondelem img{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+footer .lastelem ul{
+    display: flex;
+    list-style: none;
+}
+
+footer .lastelem ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+footer .left_footer .firstelem{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .left_footer .firstelem .btn_gogle{
+    position: relative;
+}
+
+footer .left_footer .firstelem .btn_gogle img{
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-brands{
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    font-size: 32px
+
+}
+
+.btn_gogle p{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+
+.btn_gogle p span{
+    color: #161317;
+    font-weight: bold;
+    font-size: large;
+}
+/* end of the footer */
